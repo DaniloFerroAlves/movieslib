@@ -13,7 +13,7 @@ export const Navbar = () => {
         
         if(!search) return
 
-        navigate(`search?q=${search}`)
+        navigate(`search?q=${search}&language=pt-BR`)
         setSearch("")
     }
 

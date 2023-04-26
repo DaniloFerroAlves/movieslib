@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar'
 
 
 function App() {
-
+  //Vai renderizar a página conforme a rota
   return (
     <div>
       <Navbar/>
